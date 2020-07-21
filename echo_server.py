@@ -77,7 +77,7 @@ def server(log_buffer=sys.stderr):
                 print(
                     'echo complete, client connection closed', file=log_buffer
                 )
-                sock.close()
+                #sock.close()
 
 
     except KeyboardInterrupt:
